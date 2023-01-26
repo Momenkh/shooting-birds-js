@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form>
+            <h1 style="margin-top: -10px;">
+                Select Game Level
+            </h1>
+            <select name="Level">
+                <option value="D">Choose a level</option>
+                <option value="L1">Level 1</option>
+              </select>
+            <h2>
+                Enter your name.
+            </h2>
+            <input type="text" value="" name="player"/><span class="Error hidden">*REQUIRED</span>
+            <input type="button" class="gobttn" value="GO"/>
+
+        </form>
+
+    </div>
+    <div class="main" >
+       
+        <h1 style="margin-top: -10px;">Points System</h1>
+
+        <div class="birdmain">
+            <img src="art/bird1.gif" >
+            <h2>+5 POINTS</h2>
+        </div>
+        <div class="birdmain">
+            <img src="art/bird2.gif">
+            <h2>+3 POINTS</h2>
+        </div>
+        <div class="birdmain">    
+            <img src="art/bird3.gif" >
+            <h2>-4 POINTS</h2>
+        </div>
+        <div class="birdmain">    
+            <img src="art/bird4.gif" alt="">
+            <h2>+1 POINTS</h2>
+        </div>
+       
+    </div>
+
+    <div class="main hidden">
+        <h1 class="welcome"> </h1>
+        <p style="font-size: 30px;">It's a game consists of 4 types of birds, each type gives a number of points when you clicked on it the score will calculated
+            , you have 60 second to win the gome with score more than 50</p>
+        <button class="gobttn">Start Game</button>
+    </div>
+
+
+
+    <script src="/scripts/page1.js"></script>
+    
+    
+</body>
+</html>

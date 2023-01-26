@@ -1,0 +1,146 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(art/Background.jpg);
+    caret-color: transparent;
+    background-size: auto;
+
+}
+.main{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 30px;
+    border-color: rgb(196, 196, 196);  
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top:15px;
+    
+    
+}
+select{
+
+    background-color: aliceblue;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 5px 3px;
+
+}
+
+input{
+    
+    background-color: aliceblue;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 5px 3px;
+    
+
+
+}
+
+.hidden{
+    display: none;
+}
+
+.Error{
+    color: red;
+}
+.gobttn{
+    border: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-style:outset;
+    padding: 5px 25px;
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin-inline: auto;
+    /* margin-left: 33%; */
+    margin-top: 5%;
+    
+}
+
+img{
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 100px;
+    min-width: 100px;
+}
+h3{
+    float:right;
+}
+
+.birdmain{
+    display: inline-flex;
+}
+
+.imgs{
+    position: absolute; 
+    max-height: 150px;
+    max-width: 150px;
+    min-height: 100px;
+    min-width: 100px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+.bomb{
+    position: absolute; 
+    max-height: 150px;
+    max-width: 150px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.time-s{
+    /* margin-left: 35%; */
+    /* margin-right: 90%; */
+    padding: 15px;
+    /* border: 3px solid; */
+    border-radius: 10px;
+    /* border-color: rgba(196, 196, 196, 0.295);   */
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-flex;
+}
+
+.highscore{
+
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-flex;
+    
+}
+.name{
+
+        /* margin-left: 35%; */
+        /* margin-right: 90%; */
+        padding: 15px;
+        /* border: 3px solid; */
+        border-radius: 10px;
+        /* border-color: rgba(196, 196, 196, 0.295);   */
+        background-color: rgba(255, 255, 255, 0.7);
+        display: inline-flex;
+}
+
+.score-s{
+    padding: 15px;
+    /* border: 3px solid; */ 
+    border-radius: 10px;
+    /* border-color: rgba(196, 196, 196, 0.295);   */
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-flex;
+}
+
+.killed-s{
+    padding: 15px;
+    /* border: 3px solid; */
+    border-radius: 10px;
+    /* border-color: rgba(196, 196, 196, 0.295);   */
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-flex;
+}
